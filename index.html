@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Matthew Hepburn</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="topnav" aria-label="Primary">
+  <div class="topnav-inner">
+    <a href="#home" data-page="home">Home</a>
+    <a href="#experience" data-page="experience">Experience</a>
+    <a href="#projects" data-page="projects">Projects</a>
+    <a href="#education" data-page="education">Education</a>
+  </div>
+</nav>
+
+<div class="page">
+
+  <main style="display:block; padding-top: 2.5rem;">
+
+    <section class="page-section" id="home">
+      <header class="hero">
+        <h1>Matthew Hepburn</h1>
+        <p class="role">Studying computer science at Boston University, expected 2028.</p>
+      </header>
+    </section>
+
+    <section class="page-section" id="experience" hidden>
+      <h2>Experience</h2>
+      <div class="entry current">
+        <h3>Teaching Assistant — Java, Data Structures and Algorithms</h3>
+        <p class="meta">Boston University Department of Computer Science · Fall 2026 – Present</p>
+        <ul>
+          <li>Lead weekly lab sections for ~30 students, introducing new concepts and conducting assessments</li>
+          <li>Manage grading operations for a team of 5 course assistants, delegating tasks, balancing workload, and enforcing deadlines to ensure accurate and timely feedback on 8 weekly assignments, 2 quizzes and 2 exams</li>
+          <li>Advocate for thoughtful AI adoption among students, demonstrating how to use AI tools to reinforce understanding rather than shortcut assignments</li>
+          <li>Review exam content and course materials, providing structured feedback to improve the quality and consistency of future assessments</li>
+          <li>Facilitate weekly office hours to help students debug code, work through problem sets, and prepare for exams</li>
+        </ul>
+      </div>
+      <div class="entry past">
+        <h3>Teaching Assistant — Java, Data Structures and Algorithms</h3>
+        <p class="meta">Boston University Department of Computer Science · Summer 2026</p>
+        <ul>
+          <li>Recommended by professor for graduate-level position as sole Teaching Assistant</li>
+          <li>Independently designed and taught lab sections to reinforce Java programming, data structures, and algorithms</li>
+          <li>Partnered with professor to draft exams and homework assignments</li>
+          <li>Consulted regularly with professor on class structure, learning objectives, and teaching methods</li>
+        </ul>
+      </div>
+      <div class="entry past">
+        <h3>Course Assistant — Java, Data Structures and Algorithms</h3>
+        <p class="meta">Boston University Department of Computer Science · Fall 2025 – Spring 2026</p>
+        <ul>
+          <li>Hosted weekly independent office hours covering Java programming, object-oriented principles, data structures and algorithms, and problem-solving strategies</li>
+          <li>Supported lab instruction for ~30 students, reinforcing lecture concepts and assisting with in-class assessments</li>
+          <li>Graded 150+ assignments weekly and proctored midterm and final exams</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="page-section" id="projects" hidden>
+      <h2>Projects</h2>
+
+      <div class="entry accent-teal">
+        <h3>CS412 — Full Stack Development</h3>
+        <p class="meta">Fall 2026</p>
+        <div class="sub-projects">
+          <div class="sub-project">
+            <h4>Mini Instagram clone</h4>
+            <p class="meta">Django</p>
+            <p>A Django Instagram clone with database-backed profile models and dynamic profile views.</p>
+            <p><a href="https://cs-webapps.bu.edu/mhepburn/mini_insta" target="_blank" rel="noopener noreferrer">View project</a></p>
+          </div>
+          <div class="sub-project">
+            <h4>Restaurant ordering site</h4>
+            <p class="meta">Django</p>
+            <p>A custom restaurant website in Django with form submission to process orders and generate receipts.</p>
+            <p><a href="https://cs-webapps.bu.edu/mhepburn/restaurant" target="_blank" rel="noopener noreferrer">View project</a></p>
+          </div>
+          <div class="sub-project">
+            <h4>Quote of the day generator</h4>
+            <p class="meta">Django</p>
+            <p>A Django web app that serves a new quote each day from a managed backend library.</p>
+            <p><a href="https://cs-webapps.bu.edu/mhepburn/quotes" target="_blank" rel="noopener noreferrer">View project</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="block">
+        <div class="entry accent-indigo">
+          <h3>BostonHacks</h3>
+          <p class="meta">Nov 2025</p>
+          <p>Built a Python app that uses voice authentication to password-protect markdown notes, working alongside UI/UX designers on both the front end and the underlying data structures.</p>
+        </div>
+        <div class="entry accent-amber">
+          <h3>Boston University Civic Hacks</h3>
+          <p class="meta">Feb 2025</p>
+          <p>Programmed and hosted an interactive website for geography quizzes.</p>
+        </div>
+        <div class="entry accent-plum">
+          <h3>Boston University AI Society</h3>
+          <p class="meta">Nov 2024</p>
+          <p>Built a Java agent that plays Pac-Man using neural networks and pathfinding algorithms.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section" id="education" hidden>
+      <h2>Education</h2>
+      <div class="entry accent-indigo">
+        <h3>Boston University</h3>
+        <p class="meta">Bachelor of Arts in Computer Science, Minor in Economics — Expected May 2028</p>
+        <p>GPA 4.0/4.0, Dean's List (Fall 2024 – Spring 2026)</p>
+        <p>Coursework: Full-stack Development, Distributed Systems, Computer Systems, Data Structures and Algorithms, Geometric Algorithms, Probability in Computing, Discrete Math</p>
+      </div>
+      <div class="block" id="skills-block">
+        <h2>Skills</h2>
+        <dl class="skills-grid">
+          <dt>Languages</dt>
+          <dd>
+            <span class="tag tag-teal">Go</span>
+            <span class="tag tag-amber">Python</span>
+            <span class="tag tag-indigo">Java</span>
+            <span class="tag tag-plum">C</span>
+            <span class="tag tag-teal">HTML</span>
+          </dd>
+          <dt>Tools</dt>
+          <dd>
+            <span class="tag tag-amber">Git</span>
+            <span class="tag tag-indigo">Bash</span>
+            <span class="tag tag-plum">Linux</span>
+            <span class="tag tag-teal">SQL</span>
+            <span class="tag tag-amber">Django</span>
+            <span class="tag tag-indigo">XML</span>
+            <span class="tag tag-plum">MongoDB</span>
+          </dd>
+        </dl>
+      </div>
+      <div class="block" id="interests-block">
+        <h2>Interests</h2>
+        <p>Lead trumpet in the New Trier High School Jazz Band and Orchestra, and self-taught guitar. Kitchen experience working chef and apprentice-chef roles in restaurants. Eight-plus years of coursework toward fluency in Spanish.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <span>Boston, MA</span>
+    <span class="btn-line">mhepburn@bu.edu</span>
+    <span class="btn-line">(847) 881-5757</span>
+    <span class="btn-line"><a href="https://github.com/mdhepburn2">github</a></span>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var sections = document.querySelectorAll('.page-section');
+  var links = document.querySelectorAll('.topnav a');
+  function show(hash) {
+    var id = (hash || '').replace('#', '') || 'home';
+    if (!document.getElementById(id)) id = 'home';
+    sections.forEach(function (s) { s.hidden = s.id !== id; });
+    links.forEach(function (a) {
+      if (a.dataset.page === id) { a.setAttribute('aria-current', 'page'); }
+      else { a.removeAttribute('aria-current'); }
+    });
+    window.scrollTo(0, 0);
+  }
+  window.addEventListener('hashchange', function () { show(location.hash); });
+  show(location.hash);
+})();
+</script>
+</body>
+</html>
