@@ -141,4 +141,7 @@ p:last-child { margin-bottom: 0; }
   color: var(--ink); font-weight: 500; text-decoration: none; border: 1px solid var(--border);
   cursor: text; user-select: text;
 }
+.btn-line a {
+  color: var(--ink)
+}
 .btn-line:hover { background: linear-gradient(120deg, var(--teal-soft), var(--plum-soft)); }
