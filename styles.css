@@ -33,12 +33,6 @@ html { scroll-padding-top: env(safe-area-inset-top, 0px); height: 100%; }
 body {
   margin: 0; min-height: 100%;
   background: var(--bg);
-  background-image:
-    radial-gradient(circle at 12% 15%, var(--teal-soft), transparent 40%),
-    radial-gradient(circle at 90% 8%, var(--amber-soft), transparent 36%),
-    radial-gradient(circle at 80% 85%, var(--indigo-soft), transparent 42%),
-    radial-gradient(circle at 15% 90%, var(--plum-soft), transparent 38%);
-  background-attachment: fixed;
   color: var(--ink);
   font-family: "Inter", system-ui, -apple-system, sans-serif;
   line-height: 1.6; -webkit-font-smoothing: antialiased;
@@ -88,8 +82,6 @@ p:last-child { margin-bottom: 0; }
   font-family: "Newsreader", Georgia, serif; font-weight: 600;
   font-size: clamp(2.1rem, 5vw, 2.75rem); margin: 0 0 .35rem; letter-spacing: -0.01em;
   color: var(--ink);
-  background: linear-gradient(110deg, var(--teal) 0%, var(--indigo) 55%, var(--plum) 100%);
-  -webkit-background-clip: text; background-clip: text; color: transparent;
 }
 .hero .role { color: var(--muted); font-size: 1.05rem; margin: 0 0 1.25rem; }
 
@@ -137,11 +129,11 @@ p:last-child { margin-bottom: 0; }
 }
 .btn-line {
   display: inline-flex; align-items: center; gap: .4rem; padding: .6rem 1.1rem; border-radius: 10px;
-  background: linear-gradient(120deg, var(--teal-soft), var(--indigo-soft));
+  background: var(--teal-soft);
   color: var(--ink); font-weight: 500; text-decoration: none; border: 1px solid var(--border);
   cursor: text; user-select: text;
 }
 .btn-line a {
   color: var(--ink)
 }
-.btn-line:hover { background: linear-gradient(120deg, var(--teal-soft), var(--plum-soft)); }
+.btn-line:hover { background: var(--plum-soft); }
